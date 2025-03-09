@@ -1,21 +1,52 @@
 {
-    "transactions": [
-        {
-            "id": 1,
-            "description": "Desenvolvimento de site",
-            "type": "income",
-            "category": "Venda",
-            "price": 12000,
-            "createdAt": "2025-03-08T14:09:56.682Z"
-        },
-
-        {
-            "id": 2,
-            "description": "Lanche",
-            "type": "outcome",
-            "category": "Venda",
-            "price": 50,
-            "createdAt": "2025-03-08T12:09:56.682Z"
-        }
-    ]
+  "transactions": [
+    {
+      "id": "1",
+      "description": "Desenvolvimento de site",
+      "type": "income",
+      "category": "Venda",
+      "price": 12000,
+      "createdAt": "2025-03-08T14:09:56.682Z"
+    },
+    {
+      "id": "2",
+      "description": "Lanche",
+      "type": "outcome",
+      "category": "Venda",
+      "price": 50,
+      "createdAt": "2025-03-08T12:09:56.682Z"
+    },
+    {
+      "id": "3",
+      "description": "Crédito",
+      "type": "outcome",
+      "category": "Telefone",
+      "price": 20,
+      "createdAt": "2025-03-06T12:09:56.682Z"
+    },
+    {
+      "id": "bf1c",
+      "description": "Desenvolvimento de app",
+      "price": 10000,
+      "category": "Venda",
+      "type": "income",
+      "createdAt": "2025-03-09T20:14:18.447Z"
+    },
+    {
+      "id": "b6d9",
+      "description": "Lanche",
+      "price": 20,
+      "category": "Compra",
+      "type": "outcome",
+      "createdAt": "2025-03-09T20:23:54.129Z"
+    },
+    {
+      "id": "bda8",
+      "description": "Sorvete",
+      "price": 10,
+      "category": "Alimentação",
+      "type": "outcome",
+      "createdAt": "2025-03-09T22:14:43.091Z"
+    }
+  ]
 }
