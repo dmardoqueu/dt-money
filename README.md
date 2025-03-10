@@ -1,54 +1,79 @@
-# React + TypeScript + Vite
+# DT-MONEY 💰
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Sobre o Projeto
+O DT-MONEY é uma aplicação para controle financeiro, permitindo que os usuários registrem suas transações de entrada e saída de dinheiro. Desenvolvida com React, TypeScript e Styled Components, a aplicação consome dados de uma API para gerenciar e filtrar transações de forma eficiente.
 
-Currently, two official plugins are available:
+## Tecnologias Utilizadas 🚀
+- **React + TypeScript** → Estruturação e tipagem
+- **Styled Components** → Estilização dinâmica
+- **Context API** → Gerenciamento de estado global
+- **React Hook Form + Zod** → Manipulação e validação de formulários
+- **JSON Server** → Simulação de API para persistência de dados
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Funcionalidades 🌟
+✔ Cadastro de transações financeiras
+✔ Listagem de todas as transações
+✔ Filtros de busca em tempo real
+✔ Armazenamento de dados utilizando JSON Server
+✔ Interface responsiva e intuitiva
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## Estrutura do Projeto 📂
+```
+DT-MONEY
+│── src
+│   ├── @types               # Tipagens do projeto
+│   ├── assets               # Imagens e ícones
+│   ├── components           # Componentes reutilizáveis
+│   ├── contexts             # Contexto global
+│   ├── hooks                # Hooks personalizados
+│   ├── lib                  # Bibliotecas auxiliares
+│   ├── pages                # Páginas principais
+│   ├── styles               # Estilos globais
+│   ├── utils                # Funções utilitárias
+│── .eslintrc.json           # Configuração do ESLint
+│── App.tsx                  # Componente raiz do React
+│── main.tsx                 # Ponto de entrada da aplicação
+│── vite-env.d.ts            # Configuração do Vite
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Capturas de Tela 📸
+Aqui estão algumas capturas de tela do **DT-MONEY**:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+![image](https://github.com/user-attachments/assets/feb77d79-69e9-4e1f-a07c-a5f1473398bd)
+![image](https://github.com/user-attachments/assets/19f177a4-625f-4233-9235-0c61a616b062)
+![image](https://github.com/user-attachments/assets/4d9f02b0-b9c3-43ad-9a2d-dfaaf84310f7)
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+
+## Como Executar 🏃‍♂️
+1️⃣ Clone o repositório:
+```sh
+git clone https://github.com/dmardoqueu/dt-money.git
+cd dt-money
 ```
+
+2️⃣ Instale as dependências:
+```sh
+npm install  # ou yarn install
+```
+
+3️⃣ Inicie o servidor JSON:
+```sh
+npm run dev:server
+```
+
+4️⃣ Rode a aplicação:
+```sh
+npm run dev  # ou yarn dev
+```
+
+5️⃣ Acesse no navegador:
+```sh
+http://localhost:5173
+```
+
+## 📜 Licença
+Este projeto é baseado no Ignite da Rocketseat e pode ser usado para fins de aprendizado.
+
+---
+
+Made by [@dmardoqueu](github.com/dmardoqueu)
